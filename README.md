@@ -7,30 +7,29 @@ ADITYA VIJAY
 
 ## Professional Experience
 
-#### Product Manager
-**Integrated Byte** | May 2024 - Jul 2024
+ Product Manager @ **Integrated Byte** | May 2024 - Jul 2024
 - Led UI/UX redesign, improving user satisfaction by 25%.Collaborated with development team for timely feature delivery.
-#### Junior Software Developer & UI/UX Designer
-**PhysioPlus HealthCare** | Sept 2023 - Dec 2023
+
+Junior Software Developer & UI/UX Designer @ **PhysioPlus HealthCare** | Sept 2023 - Dec 2023
 - Administered server hosting and MongoDB database management
 - Implemented UI enhancements, resulting in a 239% increase in website engagement
 - Deployed React and DevOps tools (Git, Docker) in production environment
-#### System Administrator Intern
-**GIP Technologies** | Aug 2023 - Sept 2023
+
+System Administrator Intern @ **GIP Technologies** | Aug 2023 - Sept 2023
 - Collaborated on system optimization initiatives
 - Enhanced network performance and reliability
 - Demonstrated expertise in Linux system administration
-#### Web Development Intern
-**AnkTech Softwares** | May 2023 - Jul 2023
+
+Web Development Intern @ **AnkTech Softwares** | May 2023 - Jul 2023
 - Developed MongoDB-powered websites using React.js
 - Committed to pushing technological boundaries and driving innovation
-#### Hacktoberfest Project Maintainer
-**DigitalOcean** | October 2022 - November 2022 
+
+Hacktoberfest Project Maintainer @ **DigitalOcean** | October 2022 - November 2022 
 - Managed the Hacktoberfest project repository
 - Facilitated smooth open-source collaboration among contributors
 - Ensured seamless experience for participants in their open-source endeavors
-#### IOT Development Trainee
-**AICTE IdeaLab** | Jul 2022 - August 2022
+
+IOT Development Trainee @ **AICTE IdeaLab** | Jul 2022 - August 2022
 - Immersed in hands-on IoT technologies training
 - Successfully completed the "Customized Memento" project
 - Gained practical experience in IoT development and implementation
