@@ -37,7 +37,7 @@ IOT Development Trainee @ **AICTE IdeaLab** | Jul 2022 - August 2022
 
 ## Development Projects
 
-[React Snipp](https://github.com/adityavijay21/reactsnipp) Open-source VSCode extension featuring 25+ React snippets and hooks \
+[React Snipp](https://github.com/adityavijay21/reactsnipp) Open-source VSCode extension featuring 50+ React snippets and hooks \
 **Key Features**:
 - Custom snippets for React components, hooks, and common patterns
 - Increased developer productivity by 30%
