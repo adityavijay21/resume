@@ -37,14 +37,14 @@ IOT Development Trainee @ **AICTE IdeaLab** | Jul 2022 - August 2022
 
 ## Development Projects
 
-[React Snipp](https://github.com/adityavijay21/reactsnipp) Open-source VSCode extension featuring 25+ React snippets and hooks
+[React Snipp](https://github.com/adityavijay21/reactsnipp) Open-source VSCode extension featuring 50+ React snippets and hooks \
 **Key Features**:
 - Custom snippets for React components, hooks, and common patterns
 - Increased developer productivity by 30%
 - Regular updates to align with latest React best practices
 
-[Online JavaScript Compiler](https://github.com/adityavijay21/javascript-compiler) Multi-file JavaScript compiler with real-time execution
-**Technologies**: React.js, Node.js, Express, Monaco Editor, Docker
+[Online JavaScript Compiler](https://github.com/adityavijay21/javascript-compiler) Multi-file JavaScript compiler with real-time execution \
+**Technologies**: React.js, Node.js, Express, Monaco Editor, Docker \
 **Key Features**:
 - Syntax highlighting and autocompletion
 - File explorer for complex projects
@@ -52,31 +52,31 @@ IOT Development Trainee @ **AICTE IdeaLab** | Jul 2022 - August 2022
 - Reduced code compilation time by 40%
 - Containerized for easy deployment
 
-[Resxume App](https://github.com/resxume/resxume-app) React Native mobile app for resume building and job hunting
-**Technologies**: React Native, Node.js, Express, Expo
+[Resxume App](https://github.com/resxume/resxume-app) React Native mobile app for resume building and job hunting \
+**Technologies**: React Native, Node.js, Express, Expo \
 **Key Features**:
 - ATS-friendly resume templates
 - In-app resume writer hiring
 - Job opportunity finder
 - Improved user engagement by 25%
 
-[Editor.html](https://github.com/adityavijay21/editor.html) Desktop application for live HTML/CSS/JavaScript development
-**Technologies**: Electron.js, React.js
+[Editor.html](https://github.com/adityavijay21/editor.html) Desktop application for live HTML/CSS/JavaScript development \
+**Technologies**: Electron.js, React.js \
 **Key Features**:
 - Real-time preview of web components
 - Cross-platform compatibility (Windows, macOS, Linux)
 - Accelerated prototyping speed by 35%
 - Web version available for browser-based usage
 
-[Electron Hotreload](https://github.com/adityavijay21/electron-hotreload) NPM package for automatic Electron app reloading during development
-**Technologies**: JavaScript, Node.js, Electron
+[Electron Hotreload](https://github.com/adityavijay21/electron-hotreload) NPM package for automatic Electron app reloading during development \
+**Technologies**: JavaScript, Node.js, Electron \
 **Key Features**:
 - File system watching for changes
 - Selective reloading of changed components
 - Optimized development workflow by 20%
 
-[Embeddable HTTP Server](https://github.com/adityavijay21/Embedded-HTTP-Server) Cross-platform, feature-rich HTTP server for easy integration
-**Technologies**: Node.js, Express, MongoDB, JWT, HTTPS/SSL
+[Embeddable HTTP Server](https://github.com/adityavijay21/Embedded-HTTP-Server) Cross-platform, feature-rich HTTP server for easy integration \
+**Technologies**: Node.js, Express, MongoDB, JWT, HTTPS/SSL \
 **Key Features**:
 - Minimal resource usage with compression
 - JWT-based authentication
@@ -85,13 +85,14 @@ IOT Development Trainee @ **AICTE IdeaLab** | Jul 2022 - August 2022
 - Enhanced API response times by 45%
 - Comprehensive logging and error handling
 
-[Shell Clock](https://github.com/adityavijay21/colorful-digital-clock-script) Bash script for colorful digital clock display in terminal
-**Technologies**: Bash scripting
+[Shell Clock](https://github.com/adityavijay21/colorful-digital-clock-script) Bash script for colorful digital clock display in terminal \
+**Technologies**: Bash scripting \
 **Key Features**:
 - Customizable color output
 - Low resource consumption
 - Ideal for server time monitoring
-##### Additional Projects
+  
+### Additional Projects
 - [**Hash Password Generator**](https://github.com/adityavijay21/hash-password-generator): Secure password hashing tool
 - [**Linktree Clone**](https://github.com/adityavijay21/linktree): Customizable link-sharing platform
 - **YouTube Video Downloader Bot**: Automated video download utility
