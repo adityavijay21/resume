@@ -83,9 +83,9 @@ const Layout = ({ children, darkMode, handleToggleDarkMode }) => {
         </nav>
       )}
       <div style={styles.menu}>
-        <Link to="/" style={styles.menuItem} onClick={toggleMenu}>Home</Link>
-        <Link to="/recent-work" style={styles.menuItem} onClick={toggleMenu}>Recent Work</Link>
-        <Link to="/get-in-touch" style={styles.menuItem} onClick={toggleMenu}>Get in Touch</Link>
+      <Link to="/" style={styles.menuItem} onClick={toggleMenu}>Home</Link>
+      <Link to="/recent-work" style={styles.menuItem} onClick={toggleMenu}>Recent Work</Link>
+      <Link to="/get-in-touch" style={styles.menuItem} onClick={toggleMenu}>Get in Touch</Link>
       </div>
       <main style={styles.content}>{children}</main>
       <div style={styles.darkModeToggleContainer}>
