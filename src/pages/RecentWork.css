@@ -1,0 +1,190 @@
+/* Recent Work Styles */
+
+.recent-work {
+    padding: 2rem;
+    background-color: #ffffff; /* Changed to white background */
+    color: #1f2937;
+  }
+  
+  .recent-work.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    text-align: center;
+  }
+  
+  .dark-mode .section-title {
+    border-bottom-color: #374151;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projects-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .project-item {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .project-item:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+  
+  .dark-mode .project-item {
+    background-color: #1f2937;
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+  
+  .project-link {
+    color: #2563eb;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dark-mode .project-link {
+    color: #60a5fa;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+  .external-link-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .project-description {
+    color: #4b5563;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+  
+  .dark-mode .project-description {
+    color: #d1d5db;
+  }
+  
+  .project-technologies {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .tech-label {
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .dark-mode .tech-label {
+    color: #e5e7eb;
+  }
+  
+  .project-features {
+    margin-bottom: 0.75rem;
+  }
+  
+  .features-label {
+    font-weight: 600;
+    color: #374151;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dark-mode .features-label {
+    color: #e5e7eb;
+  }
+  
+  .features-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .dark-mode .features-list {
+    color: #d1d5db;
+  }
+  
+  .feature-item {
+    margin-bottom: 0.25rem;
+    text-align: center;
+  }
+  
+  .additional-projects {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .dark-mode .additional-projects {
+    background-color: #1f2937;
+  }
+  
+  .additional-projects-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #4b5563;
+  }
+  
+  .dark-mode .additional-projects-list {
+    color: #d1d5db;
+  }
+  
+  .additional-project-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .additional-project-item::before {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #3b82f6;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+  }
