@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'wouter'; // Use Wouter for Link and useLocation
 import DarkModeToggle from './DarkModeToggle';
 
 const Layout = ({ children, darkMode, handleToggleDarkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
-  const isHomePage = location.pathname === '/';
+  const [location] = useLocation(); // Wouter's useLocation returns an array
+  const isHomePage = location === '/';
 
   const styles = {
     container: {
@@ -83,9 +83,9 @@ const Layout = ({ children, darkMode, handleToggleDarkMode }) => {
         </nav>
       )}
       <div style={styles.menu}>
-      <Link to="/" style={styles.menuItem} onClick={toggleMenu}>Home</Link>
-      <Link to="/recent-work" style={styles.menuItem} onClick={toggleMenu}>Recent Work</Link>
-      <Link to="/get-in-touch" style={styles.menuItem} onClick={toggleMenu}>Get in Touch</Link>
+        <Link href="/" style={styles.menuItem} onClick={toggleMenu}>Home</Link>
+        <Link href="/recent-work" style={styles.menuItem} onClick={toggleMenu}>Recent Work</Link>
+        <Link href="/get-in-touch" style={styles.menuItem} onClick={toggleMenu}>Get in Touch</Link>
       </div>
       <main style={styles.content}>{children}</main>
       <div style={styles.darkModeToggleContainer}>

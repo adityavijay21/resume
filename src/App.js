@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Router, Route } from 'wouter'; // Wouter imports
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import RecentWork from './pages/RecentWork';
@@ -22,11 +22,15 @@ const App = () => {
   return (
     <Router>
       <Layout darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode}>
-        <Routes>
-          <Route path="/" element={<Home darkMode={darkMode} />} />
-          <Route path="/recent-work" element={<RecentWork darkMode={darkMode} />} />
-          <Route path="/get-in-touch" element={<GetInTouch darkMode={darkMode} />} />
-        </Routes>
+        <Route path="/">
+          <Home darkMode={darkMode} />
+        </Route>
+        <Route path="/recent-work">
+          <RecentWork darkMode={darkMode} />
+        </Route>
+        <Route path="/get-in-touch">
+          <GetInTouch darkMode={darkMode} />
+        </Route>
       </Layout>
     </Router>
   );
